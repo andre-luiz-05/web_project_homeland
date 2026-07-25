@@ -1,4 +1,4 @@
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .lead,
   .intro,
   .footer {
@@ -47,7 +47,7 @@
   }
 }
 
-@media (max-width: 544px) {
+@media (max-width: 320px) {
   .header__logo {
     width: 188px;
   }
