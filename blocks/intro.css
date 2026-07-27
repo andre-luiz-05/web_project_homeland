@@ -39,3 +39,51 @@
   color: #ffffff;
   margin-top: 32px;
 }
+
+@media (max-width: 768px) {
+  .intro {
+    padding: 0 24px;
+    margin-top: 90px;
+  }
+
+  .intro__title {
+    font-size: 45px;
+    line-height: 49px;
+  }
+
+  .intro__quote {
+    margin-top: 50px;
+  }
+
+  .intro__quote-author {
+    margin-top: 8px;
+  }
+
+  .intro__text {
+    margin-top: 32px;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro {
+    padding: 0 16px;
+    margin-top: 64px;
+  }
+
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .intro__quote {
+    margin-top: 40px;
+  }
+
+  .intro__quote-author {
+    margin-top: 10px;
+  }
+
+  .intro__text {
+    margin-top: 32px;
+  }
+}
